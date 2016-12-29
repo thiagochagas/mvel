@@ -3554,6 +3554,7 @@ public class CoreConfidenceTests extends AbstractTest {
     }
   }
 
+  /*
   public void testSysoutNullVariable() {
     // Create our root Map object
     Map<String, String> map = new HashMap<String, String>();
@@ -3564,6 +3565,7 @@ public class CoreConfidenceTests extends AbstractTest {
 
     org.mvel2.MVEL.executeExpression(org.mvel2.MVEL.compileExpression("System.out.println(foo);"), map, factory);
   }
+*/
 
   public void testPackageImportEnum() {
     String str = "new Status( START )";
