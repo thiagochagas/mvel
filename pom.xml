@@ -236,19 +236,11 @@
     </dependencies>
 
     <distributionManagement>
-        <!-- use the following if you're not using a snapshot version. -->
-        <repository>
-            <id>codehaus.org</id>
-            <name>Codehaus Maven Repository</name>
-            <url>dav:https://dav.codehaus.org/repository/mvel/</url>
-        </repository>
-        <!-- use the following if you ARE using a snapshot version. -->
-        <snapshotRepository>
-            <id>codehaus.org</id>
-            <name>Codehaus Snapshot Maven Repository</name>
-            <url>dav:https://dav.codehaus.org/snapshots.repository/mvel/</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
+  		<repository>
+  			<id>confidence-release</id>
+  			<name>Confidence Releases</name>
+  			<url>https://dextranet.dextra.com.br/nexus/content/repositories/confidence-release/</url>
+  		</repository>
+  	</distributionManagement>
 
 </project>
